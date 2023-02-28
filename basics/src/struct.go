@@ -10,7 +10,7 @@ type person struct {
 	lastName  string
 	age       int
 	// A tag is a string that can be attached to a field
-	country string `required max:"100"` // We can use tags to add metadata to our struct fields
+	country string `required max:100` // We can use tags to add metadata to our struct fields
 }
 
 func main() {
